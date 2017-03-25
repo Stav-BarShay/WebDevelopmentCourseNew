@@ -1,0 +1,120 @@
+body 
+{
+    direction:rtl;
+    width:960px;
+    margin:0 auto;
+    background: url("../imeges/background 2.png") repeat-y right top ;
+    background-size:1255px;
+    margin-bottom:50px;
+}
+h1 {
+    font-size: 60pt;
+    font-family: Tahoma;
+    font-weight:bold;
+    color:darkblue;
+    text-shadow: 10px 10px 10px white;
+    padding-right: 380px;
+    padding-top:90px;
+    padding-bottom:250px;
+    margin-top:35px;
+    margin-right:-50px;
+    background: url("../imeges/me.png") no-repeat right top;
+    background-size: 350px;
+}
+#about
+{
+    font-size:16pt;
+    font-family:Tahoma;
+    width:500px;
+    color:white;   
+    text-shadow: 10px 10px 10px black;
+    margin-top:-200px;
+    margin-right:370px;
+    line-height:30px;
+}
+#job h2 , #student h2 , #army h2 , #hobbies h2 , #contact h2
+{
+    font-family:Tahoma;
+    font-size:16pt;
+    color:white;   
+    text-shadow: 10px 10px 10px black;
+    margin-bottom:15px;
+}
+#job ul > li , #student ul li ,  #army ul>li , #hobbies p
+{
+    font-family:Tahoma;
+    font-size:12pt;
+    line-height: 40px;
+    color:white;   
+    text-shadow: 10px 10px 10px black;
+    list-style-type:none;
+}
+#job ul li > p , #army p ,#army ul li > p
+{
+    font-family:Tahoma;
+    font-size:10pt;
+    color:white;   
+    text-shadow: 10px 10px 10px black;
+    line-height:30px;
+}
+#pic
+{
+    font-weight:bold;
+    color:white;   
+    text-shadow: 10px 10px 10px black;
+}
+#pic > img 
+{
+    width:400px;
+}
+div.tab 
+{
+    overflow: hidden;
+    border: 1px solid transparent;
+    background-color:transparent;
+    margin-top:70px;
+}
+
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    margin-left:25px;
+    margin-top:15px;
+}
+#start
+{
+    font-family:Tahoma;
+    font-size:14pt;
+    font-weight:bold;
+    color:white;   
+    text-shadow: 10px 10px 10px black;
+    margin-right:710px;
+    text-decoration:none;
+}
+#mail img , #facebook > img
+{
+    width:100px;
+    margin-left:60px;
+    margin-right:120px;
+}
+div.tab button:hover
+ {
+    background-color: gainsboro;
+}
+
+
+div.tab button.active 
+{
+    background-color: white;
+}
+
+.tabcontent
+ {
+    display: none;
+    border-top: none;
+}
