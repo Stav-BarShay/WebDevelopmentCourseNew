@@ -1,0 +1,142 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>Stav Bar Shay</title>
+    <meta name="description" content="סתיו בר שי" />
+    <meta name="keywords" content="סתיו בר שי, סתיו,בר שי, על עצמי" />
+    <meta name="author" content="Stav Bar Shay" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>סתיו בר שי</h1>
+            <p id="about">בת 22 גרה ברעננה, סטודנטית לתואר ראשון בטכנולוגיות למידה ב- HIT</p>
+
+            <nav>
+                <ul>
+                    <li> <a href="job.html"><img src="imeges/job.png" /> <br />  תעסוקה </a> </li>
+                    <li> <a href="student.html"><img src="imeges/student.png" /> <br />  השכלה </a> </li>
+                    <li> <a href="army.html"> <img src="imeges/army.png" /> <br />  שירות צבאי </a> </li>
+                    <li> <a href="hobbies.html"> <img src="imeges/Hobbies.png" /> <br />  תחומי עניין </a> </li>
+                    <li> <a href="contact.html"> <img class="active" src="imeges/contact.png" /> <br /> צור קשר </a> </li>
+                     </ul>
+            </nav>
+        </header>
+         <!--<div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'contact')"><img src="imeges/contact.png" /></button>
+            <button class="tablinks" onclick="openCity(event, 'hobbies')"><img src="imeges/Hobbies.png" /></button>
+            <button class="tablinks" onclick="openCity(event, 'army')"><img src="imeges/army.png" /></button>
+            <button class="tablinks" onclick="openCity(event, 'job')"><img src="imeges/job.png" /></button>
+            <button class="tablinks" onclick="openCity(event, 'student')"><img src="imeges/student.png" /></button>
+        </div>--> 
+                        <!--<script>
+        function openCity(evt, cityName)
+        {var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++)
+            {tabcontent[i].style.display = "none";}
+            tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+             tablinks[i].className = tablinks[i].className.replace(" active", "");}
+             document.getElementById(cityName).style.display = "block";
+             evt.currentTarget.className += " active";}
+    </script>-->
+
+        <!--<div id="job" class="tabcontent">
+            <section>
+                <h2>תעסוקה</h2>
+                <ul>
+                    <li>
+                        2003-2012 : צופים
+                        <p>
+                            השתתתתפות בתנועת נוער מרכזית ברעננה, כאשר במהלך 6 השנים הראשונות הייתי חניכה ולמדתי לאהוב את הארץ ולעזור לכל אדם.
+                            ב- 3 השנים האחרונות לאחר הכשרה הפכתי להיות מדריכה לחניכים בכיתה ד.
+                            ובמשך השנתייים האחרות הייתי ראש"גדית האחראית על שכבת גיל שלמה"
+                        </p>
+                    <li>
+                        2012-2013 : עבודה כמלצרית בארקפה
+                    </li>
+                    <li>
+                        2016-2017 : מטמיעת מערכת לניהול למידה והדרכה בזרוע הים
+                        <p>התפקיד כולל ניהול של הטמעת המערכת בכלל היחידות המבצעיות של זרוע הים בצה"ל וביצוע הדרכות לשימוש במערכת עבור כלל חיילי הזרוע.</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+            <div id="student" class="tabcontent">
+                <section>
+                    <h2>השכלה</h2>
+                    <ul>
+                        <li>12 שנות לימוד מלאות, כולל בגרות מלאה והרחבת כימיה 2 שנים.</li>
+                        <li>2016-2017 : סטודנטית בפקולטה "טכנולוגיות מערכות למידה" במכון הטכנולוגי בחולון HIT.</li>
+                    </ul>
+                </section>
+            </div>
+      
+            <div id="army" class="tabcontent">
+                <section>
+                    <h2>צה"ל 2013-2015</h2>
+                    <p>
+                        השירות הצבאי הרגיש לי מאוד משמעותי! הרגשתי שיש ייעוד ומטרה לכל משימה שאני מקבלת ושהתפקיד שלי משמעותי עבור היחידה בה שירתתי.
+                        לעומת זאת המערכת הצבאית הייתה "קשה לעיכול", בעיקר בהתנהלות היומיומית (זמנים, שמירות, מטלות, קיבעון למערכת)
+                    </p>
+                    <ul>
+                        <li>
+                            מדריכת מורן
+                            <p>
+                                הדרכת הלוחמים \ קצינים \ המדריכות \ אנשי המילואים על האמל"ח של יחידת מורן.
+                                הדרכה פרונטלית, הדרכה מעשית וחניכת תרגילים בסימולטור"
+                            </p>
+                        </li>
+                        <li>
+                            מש"קית צפ"ה
+                            <p>
+                                פיתוח ההדרכה ביחידת מורן ע"י שימוש במערכת לניהול הדרכות (ברקת) וניהולה מאחורי הקלעים.
+                                חניכת המדריכות על אופן ההדרכה ושמירה על רמה מקצועית שלהן.
+                            </p>
+                        </li>
+                        <li id="pic">
+                            מעט תמונות מהשירות הצבאי:
+                            <br />
+                            <img src="imeges/me in army- 1.jpg" />
+                            <img src="imeges/me in army- 5.jpg" />
+                            <br />
+                            <img src="imeges/me in army- 2.jpg" />
+                            <img src="imeges/me in army- 3.jpg" />
+
+                        </li>
+                    </ul>
+                </section>
+                <a id="start" href="#about">חזור לתחילת העמוד</a>
+            </div>
+        <div id="hobbies" class="tabcontent">
+            <section>
+                <h2>תחביבים</h2>
+                <p>
+                    אחד מתחביביי העיקריים הוא לצאת לבלות ולהינות בזמני הפנוי עם הסובבבים אותי, היציאה עם החברים משרה בי רוגע והפגת לחצים ממהלך היום-יום.
+
+                    תחביב נוסף שלי הוא תחום ההדרכה, מלבד שזהו עיסוקי העיקרי זהו נושא שמרתק אותי ואני מרגישה נוח כאשר אני מדריכה ומלמדת אנשים.
+                </p>
+            </section>
+        </div>-->  
+        <div id="contact"> <!--class="tabcontent"-->
+            <section>
+                <h2>שמרו על קשר</h2>
+                <a id="mail" target="_blank" href="mailto:stavbs1902@gmail.com"><img src="imeges/mail.png" /></a>
+                <a id="facebook" target="_blank" href="https://www.facebook.com/stav.shay?ref=ts&fref=ts"><img src="imeges/facebook.png" /></a>
+            </section>
+                </div>
+        </div>
+</body>
+</html>
